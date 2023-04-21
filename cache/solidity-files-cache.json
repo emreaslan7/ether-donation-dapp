@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\emrea\\OneDrive\\Masaüstü\\code\\ether-donation-dapp\\contracts\\Donation.sol": {
+      "lastModificationDate": 1681918324935,
+      "contentHash": "f305657639668d6199a8aeea8f7fb17a",
+      "sourceName": "contracts/Donation.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Donation"
+      ]
+    }
+  }
+}
