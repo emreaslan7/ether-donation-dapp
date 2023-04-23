@@ -9,7 +9,6 @@ contract Donation {
     address donor;
     uint256 amount;
   }
-
   Donation donation;
   Donation[] donations;
 
