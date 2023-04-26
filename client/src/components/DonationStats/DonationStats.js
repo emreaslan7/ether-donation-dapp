@@ -1,5 +1,6 @@
 import React from 'react'
-import { Box, Card, CardBody, Image, Text, Stack, CardFooter, Flex } from '@chakra-ui/react';
+import { Box, Card, CardBody, Image, Text, Stack, CardFooter, Flex, Link } from '@chakra-ui/react';
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 function DonationStats(props) {
     const { totalDonate } = props;
@@ -16,6 +17,10 @@ function DonationStats(props) {
               <Text textAlign={'center'}>
               Together, we are stronger and can change more lives.
               </Text>
+              <Link isTruncated isExternal color={'red.600'} fontSize={'xs'} fontWeight={'bold'} 
+              href='https://goerli.etherscan.io/address/0x3fbca885fdc8b565e37dfa09094951efe7c9920c'
+              textAlign={'center'}>
+                0x3fbca885fdc8b565e37dfa09094951efe7c9920c <ExternalLinkIcon mx='2px' /></Link>
             </Stack>
           </CardBody>
           <CardFooter justifyContent={'space-around'} alignItems={'center'}>
