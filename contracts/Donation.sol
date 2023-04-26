@@ -3,30 +3,31 @@ pragma solidity ^0.8.0;
 
 contract Donation {
   address owner;
-  uint256 totalDonations;
+  uint256 public totalDonations;
 
-  struct Donation {
+  struct Donates{
     address donor;
     uint256 amount;
   }
-  Donation donation;
-  Donation[] donations;
+
+  Donates public donate;
+  Donates[] public donations;
 
   constructor() {
     owner = msg.sender;
   }
 
   receive() external payable {
-    donation  = Donation(
+    donate  = Donates(
       msg.sender,
       msg.value
     );
 
-    donations.push(donation);
+    donations.push(donate);
     totalDonations += msg.value;
   }
 
-  function getDonations() external view returns (Donation[] memory) {
+  function getDonations() external view returns (Donates[] memory) {
     return donations;
   }
 
