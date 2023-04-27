@@ -1,10 +1,25 @@
 # HearthHue
+![Logo](/client/public/assets/hearthHue_logos.png)
 
 HearthHue is a charity organization aimed at collecting donations from people to help those in need. 
 
 The project allows users to donate Ether (ETH), which are automatically stored and managed through a smart contract.
 
 This project is developed for improving hardhat skills, learning smart contract testing...
+
+<br>
+
+## Demo
+
+[HearthHue.app](https://hearth-hue.vercel.app/)
+
+
+
+| Desktop | Mobile |
+| --- | --- |
+| ![Desktop Görünümü](/client/public/assets/screenshots/screenshots-desktop.png) | ![Mobil Görünümü](/client/public/assets/screenshots/screenshots-mobile.png) |
+
+<br>
 
 ## Tech Stack
 <div style="align:center">  
@@ -15,18 +30,65 @@ This project is developed for improving hardhat skills, learning smart contract 
 
 </div>
 
-## Demo
+<br>
+<br>
 
-[HearthHue.app](https://hearth-hue.vercel.app/)
+## Running the project on your local machine
 
-  
-![Logo](/client/public/assets/hearthHue_logos.png)
+Clone the project
+
+```bash
+  git clone https://github.com/emreaslan7/ether-donation-dapp.git
+```
+
+Go to the project directory
+
+```bash
+  cd ether-donation-dapp
+```
+
+Install the necessary packages
+
+```bash
+  npm install
+```
+
+Go to the project directory for frontend
+```bash
+  cd client
+```
+
+Install the necessary packages for frontend
+
+```bash
+  npm install
+```
+
+Sunucuyu çalıştırın
+
+```bash
+  npm start
+```
+
+<br>
+
+## Ortam Değişkenleri
+
+Bu projeyi çalıştırmak için aşağıdaki ortam değişkenlerini .env dosyanıza eklemeniz gerekecek
+
+`PRIVATE_KEY`
+
+`GOERLI_URL`
+
+<br>
+<br>
+
+## Feedback
+
+You can share your feedback about the project with me. If you encounter any issues, please feel free to email me at:
+
+- Email: emreaslan.eth@gmail.com
+
+Thank you!
 
 
-## Screenshots
-
-![Logo](/client/public/assets/screenshots/screenshots-desktop.png)
-
-![Logo](/client/public/assets/screenshots/screenshots-mobile.png)
-
-<img style="margin: 10px" src="/client/public/assets/screenshots/screenshots-mobile.png" alt="mobile-screenshot" height="40px" />
