@@ -72,9 +72,9 @@ Sunucuyu çalıştırın
 
 <br>
 
-## Ortam Değişkenleri
+## Environment Variables
 
-Bu projeyi çalıştırmak için aşağıdaki ortam değişkenlerini .env dosyanıza eklemeniz gerekecek
+To run this project you will need to add the following environment variables to your .env file
 
 `PRIVATE_KEY`
 
